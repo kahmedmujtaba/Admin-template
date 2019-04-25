@@ -1,0 +1,55 @@
+.box{
+  position: relative;
+  border-radius: 3px;
+  background: $white;
+  border-top: 3px solid transparent;
+  margin-bottom: 1.6em;
+  width: 100%;
+  box-shadow: 0 1px 1px rgba($black, 0.1);
+  padding-bottom: .8em;
+  &--header{
+    font-size: $section-title;
+    color:$white;
+    text-transform: uppercase;
+    background-color: lighten($black, 15%);
+    padding: .8em .8em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &--tooltip{
+      position: relative;
+      &--text{
+        font-size: .8em;
+        position: absolute;
+        text-transform: none;
+        bottom: 150%;
+        right: 3px;
+        visibility: hidden;
+        width: max-content;
+        background-color: $black;
+        color: $white;
+        text-align: center;
+        border-radius: 6px;
+        padding: .5em;
+        z-index: 1;
+        &:after{
+          content: "";
+          position: absolute;
+          top: 100%;
+          right:3px;
+          margin-left: -5px;
+          border-width: 5px;
+          border-style: solid;
+          border-color: $black transparent transparent transparent;
+        }
+      }
+      &:hover &--text{
+        visibility: visible;
+      }
+    }
+  }
+  &--body{
+    background-color: $white;
+    padding: 1em 0;
+  }
+}
