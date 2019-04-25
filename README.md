@@ -1,10 +1,10 @@
-# gulp-sass-starter
+# Admin Template clean UI
 
 ## Description
 
-A simple starter kit builded with Gulp, SASS, and js/sass lint for better coding
+used A simple starter kit builded with Gulp, SASS, and js/sass lint for better coding and then continued adding my own code to it to make a clean white admin template and components necessary for admin panel of a website.
 
-#### Start by running `git clone https://github.com/brianeto/gulp-sass-starter.git`
+#### Start by running `git clone https://github.com/kahmedmujtaba/Admin-template.git`
 
 ## How to Run
 1. Make sure you have installed [gulp-cli](https://gulpjs.com/), and [Yarn](https://yarnpkg.com) if you like to install your develop dependencies faster.
